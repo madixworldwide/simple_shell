@@ -30,7 +30,7 @@ int _erratoi(char *s)
 
 /**
  * print_error - prints an error message
- * @info: the parameter & return info structure
+ * @info: the parameter & return info struct
  * @estr: string containing specified error type
  * Return: 0 if no numbers in string, converted number otherwise
  *        -1 on error
@@ -86,7 +86,7 @@ int print_d(int input, int fd)
 }
 
 /**
- * convert_number - convert function, a clone of itoa
+ * convert_number - converter function, a clone of itoa
  * @num: number
  * @base: base
  * @flags: argument flags
