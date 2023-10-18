@@ -24,7 +24,7 @@ int is_cmd(info_t *info, char *path)
 
 /**
  * dup_chars - duplicates characters
- * @pathstr: the PATH string
+ * @pathstr: the PATH str
  * @start: starting index
  * @stop: stopping index
  *
@@ -45,7 +45,7 @@ char *dup_chars(char *pathstr, int start, int stop)
 /**
  * find_path - finds this cmd in the PATH string
  * @info: the info structure
- * @pathstr: the PATH str
+ * @pathstr: the PATH string
  * @cmd: the cmd to find
  *
  * Return: full path of cmd if found or NULL
